@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAbout_Main" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="btnAdd_Main" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnDelete_Main" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnDelete_Recycle" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnLogIn_ucLoginSign" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="btnRecycle_Main" xml:space="preserve">
+    <value>Recycle Bin</value>
+  </data>
+  <data name="btnRegister_ucLoginLog" xml:space="preserve">
+    <value>Register and Log In</value>
+  </data>
+  <data name="btnRegister_ucLoginSign_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="btnRegister_ucLoginSign_RenewLog" xml:space="preserve">
+    <value>Renew and Log In</value>
+  </data>
+  <data name="btnRestore_Recycle" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="btnSearch_Main" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnSettings_Main" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="btnUpdateLoginInfo_Settings" xml:space="preserve">
+    <value>Update Login Info</value>
+  </data>
+  <data name="btnUpdate_Main" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Code_ExitQuest_Main" xml:space="preserve">
+    <value>Are you sure you want to exit?</value>
+  </data>
+  <data name="Code_ExitQuest_Title" xml:space="preserve">
+    <value>EXIT?</value>
+  </data>
+  <data name="dbcodes_Add_Main" xml:space="preserve">
+    <value>Data added successfully!</value>
+  </data>
+  <data name="dbcodes_Add_Title" xml:space="preserve">
+    <value>DATA ADDED</value>
+  </data>
+  <data name="dbcodes_AlreadyExists_Main" xml:space="preserve">
+    <value>Such data already exists!</value>
+  </data>
+  <data name="dbcodes_AlreadyExists_Title" xml:space="preserve">
+    <value>ALREADY EXISTS</value>
+  </data>
+  <data name="dbcodes_Delete_Main" xml:space="preserve">
+    <value>Data deleted successfully!</value>
+  </data>
+  <data name="dbcodes_Delete_Title" xml:space="preserve">
+    <value>DATA DELETED</value>
+  </data>
+  <data name="dbcodes_Error_Main" xml:space="preserve">
+    <value>Database error! Error Code: {0}</value>
+  </data>
+  <data name="dbcodes_Error_Title" xml:space="preserve">
+    <value>ERROR</value>
+  </data>
+  <data name="dbcodes_Permdelete_Main" xml:space="preserve">
+    <value>Data permanent delete successfully!</value>
+  </data>
+  <data name="dbcodes_Permdelete_Title" xml:space="preserve">
+    <value>DATA PERMANENT DELETE</value>
+  </data>
+  <data name="dbcodes_Restore_Main" xml:space="preserve">
+    <value>Data restored successfully!</value>
+  </data>
+  <data name="dbcodes_Restore_Title" xml:space="preserve">
+    <value>DATA RESTORED</value>
+  </data>
+  <data name="dbcodes_Update_Main" xml:space="preserve">
+    <value>Data updated successfully!</value>
+  </data>
+  <data name="dbcodes_Update_Title" xml:space="preserve">
+    <value>DATA UPDATED</value>
+  </data>
+  <data name="frmMainCode_NoInfo_Main" xml:space="preserve">
+    <value>Please enter data!</value>
+  </data>
+  <data name="frmMainCode_NoInfo_Title" xml:space="preserve">
+    <value>NO INFO</value>
+  </data>
+  <data name="frmMainCode_NoSearchWord_Main" xml:space="preserve">
+    <value>Enter the word to searched!</value>
+  </data>
+  <data name="frmMainCode_NoSearchWord_Title" xml:space="preserve">
+    <value>NO SEARCH WORD</value>
+  </data>
+  <data name="frmMainCode_NoSuchData_Main" xml:space="preserve">
+    <value>No such data was found!</value>
+  </data>
+  <data name="frmMainCode_NoSuchData_Title" xml:space="preserve">
+    <value>NOT FOUND</value>
+  </data>
+  <data name="frmRecycleCode_DeleteQuest_Main" xml:space="preserve">
+    <value>Are you sure you want to permanent delete?</value>
+  </data>
+  <data name="frmRecycleCode_DeleteQuest_Title" xml:space="preserve">
+    <value>PERMANENT DELETE</value>
+  </data>
+  <data name="frmRecycleCode_Listing_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="frmRecycleCode_Listing_EMail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="frmRecycleCode_Listing_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="frmRecycleCode_Listing_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="frmRecycleCode_RestoreQuest_Main" xml:space="preserve">
+    <value>Are you sure you want to restore?</value>
+  </data>
+  <data name="frmRecycleCode_RestoreQuest_Title" xml:space="preserve">
+    <value>RESTORE</value>
+  </data>
+  <data name="frmSettingeCode_UpdateRequest_Main" xml:space="preserve">
+    <value>Do you confirm the new information you entered?
+
+E-Mail: {0}
+Password: {1}</value>
+  </data>
+  <data name="frmSettingsCode_InvalidInfo_Main" xml:space="preserve">
+    <value>Please enter a valid email address and password!</value>
+  </data>
+  <data name="frmSettingsCode_InvalidInfo_Title" xml:space="preserve">
+    <value>INVALID INFORMATION</value>
+  </data>
+  <data name="frmSettingsCode_NotChangeInfo_Main" xml:space="preserve">
+    <value>No changing information!</value>
+  </data>
+  <data name="frmSettingsCode_NotChangeInfo_Title" xml:space="preserve">
+    <value>NOT CHANGE</value>
+  </data>
+  <data name="frmSettingsCode_UpdateRequest_Title" xml:space="preserve">
+    <value>UPDATE LOGIN INFO</value>
+  </data>
+  <data name="gbCustomize_Settings" xml:space="preserve">
+    <value>Customize</value>
+  </data>
+  <data name="gbEdit_Main" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="gbExtra_Main" xml:space="preserve">
+    <value>Extra</value>
+  </data>
+  <data name="gbLoginInfo" xml:space="preserve">
+    <value>Login Details</value>
+  </data>
+  <data name="gbSearch_Main" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="gbTheme_Settings" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="gbTools_Main" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="label1_About" xml:space="preserve">
+    <value>Password Bank © Copyright 2020
+All Right Reserved. ®
+Made by Engin Can Yenigün</value>
+  </data>
+  <data name="label1_Main" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="label1_Recycle" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="label1_Settings" xml:space="preserve">
+    <value>E-Mail:</value>
+  </data>
+  <data name="label1_ucLoginLog" xml:space="preserve">
+    <value>First login! Please create a password and register.</value>
+  </data>
+  <data name="label1_ucLoginSign" xml:space="preserve">
+    <value>Welcome back! Please log in.</value>
+  </data>
+  <data name="label1_ucLoginSign_NewPass" xml:space="preserve">
+    <value>Set a new password and log in.</value>
+  </data>
+  <data name="label2_Main" xml:space="preserve">
+    <value>E-Mail:</value>
+  </data>
+  <data name="label2_Recycle" xml:space="preserve">
+    <value>E-Mail:</value>
+  </data>
+  <data name="label2_Settings" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="label2_ucLoginLog" xml:space="preserve">
+    <value>E-Mail:</value>
+  </data>
+  <data name="label3_Main" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="label3_Recycle" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="label3_Settings" xml:space="preserve">
+    <value>Color Scheme:</value>
+  </data>
+  <data name="label3_ucLoginLog" xml:space="preserve">
+    <value>Pass:</value>
+  </data>
+  <data name="label3_ucLoginSign" xml:space="preserve">
+    <value>Pass:</value>
+  </data>
+  <data name="label4_Main" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="label4_Recycle" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="label4_Settings" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="label5_Main" xml:space="preserve">
+    <value>Search Description:</value>
+  </data>
+  <data name="lblCount_Main" xml:space="preserve">
+    <value>Total number of data: {0}</value>
+  </data>
+  <data name="lblLogo_About" xml:space="preserve">
+    <value>ABOUT</value>
+  </data>
+  <data name="lblLogo_Login" xml:space="preserve">
+    <value>PASSWORD BANK</value>
+  </data>
+  <data name="lblLogo_Main" xml:space="preserve">
+    <value>PASSWORD BANK</value>
+  </data>
+  <data name="lblLogo_Recycle" xml:space="preserve">
+    <value>RECYCLE BIN</value>
+  </data>
+  <data name="lblLogo_Settings" xml:space="preserve">
+    <value>SETTINGS</value>
+  </data>
+  <data name="lnkForgetPass_ucLoginSign" xml:space="preserve">
+    <value>Forget your password?</value>
+  </data>
+  <data name="rbDarkMode_Settings" xml:space="preserve">
+    <value>Dark Mode</value>
+  </data>
+  <data name="rbLightMode_Settings" xml:space="preserve">
+    <value>Light Mode</value>
+  </data>
+  <data name="ucLoginLogCode_InvalidInfo_Main" xml:space="preserve">
+    <value>Please enter a valid email address and password!</value>
+  </data>
+  <data name="ucLoginLogCode_InvalidInfo_Title" xml:space="preserve">
+    <value>INVALID INFORMATION</value>
+  </data>
+  <data name="ucLoginLogCode_Register_Main" xml:space="preserve">
+    <value>Do you confirm the information you entered?
+
+E-Mail: {0}
+Password: {1}</value>
+  </data>
+  <data name="ucLoginLogCode_Register_Title" xml:space="preserve">
+    <value>REGISTER</value>
+  </data>
+  <data name="ucLoginSignCode_ErrorMail_Main" xml:space="preserve">
+    <value>There was an error sending the code! ERROR CODE: ERR_UCLGNSGN_MAIL</value>
+  </data>
+  <data name="ucLoginSignCode_ErrorMail_Title" xml:space="preserve">
+    <value>ERROR</value>
+  </data>
+  <data name="ucLoginSignCode_InvalidCode_Main" xml:space="preserve">
+    <value>Invalid code! Please enter valid code.</value>
+  </data>
+  <data name="ucLoginSignCode_InvalidCode_Title" xml:space="preserve">
+    <value>INVALID CODE</value>
+  </data>
+  <data name="ucLoginSignCode_InvalidNewPass_Main" xml:space="preserve">
+    <value>Invalid new password! Please enter a valid password.</value>
+  </data>
+  <data name="ucLoginSignCode_InvalidNewPass_Title" xml:space="preserve">
+    <value>INVALID NEW PASSWORD</value>
+  </data>
+  <data name="ucLoginSignCode_label1_SendCode" xml:space="preserve">
+    <value>Enter the code sent to your e-mail address.</value>
+  </data>
+  <data name="ucLoginSignCode_label3_Code" xml:space="preserve">
+    <value>Code:</value>
+  </data>
+  <data name="ucLoginSignCode_lnkForgetPassSecond" xml:space="preserve">
+    <value>Forget your password? - {0}</value>
+  </data>
+  <data name="ucLoginSignCode_SendCode_Main" xml:space="preserve">
+    <value>If you click Yes button, a password renewal code will be sent to your e-mail address. Are you sure?</value>
+  </data>
+  <data name="ucLoginSignCode_SendCode_Title" xml:space="preserve">
+    <value>PASSWORD RENEW</value>
+  </data>
+  <data name="ucLoginSignCode_SetNewPassword_Main" xml:space="preserve">
+    <value>You set new password: {0}
+Are you sure?</value>
+  </data>
+  <data name="ucLoginSignCode_SetNewPassword_Title" xml:space="preserve">
+    <value>RENEW PASSWORD</value>
+  </data>
+  <data name="ucLoginSignCode_WrongPass_Main" xml:space="preserve">
+    <value>Wrong password! Please enter the correct password.</value>
+  </data>
+  <data name="ucLoginSignCode_WrongPass_Title" xml:space="preserve">
+    <value>WRONG PASSWORD</value>
+  </data>
+  <data name="ucLoginSign_MailBody1" xml:space="preserve">
+    <value>FORGET</value>
+  </data>
+  <data name="ucLoginSign_MailBody2" xml:space="preserve">
+    <value>YOUR PASSWORD?</value>
+  </data>
+  <data name="ucLoginSign_MailBody3" xml:space="preserve">
+    <value>Hello, your password reset code:</value>
+  </data>
+  <data name="ucLoginSign_MailSubject" xml:space="preserve">
+    <value>Password Bank - PASSWORD RECOVERY CODE</value>
+  </data>
+</root>
